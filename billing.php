@@ -71,8 +71,6 @@ function getPaymentStatusName($status) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Billing Page</title>
     <link rel="stylesheet" href="css/bill.css">
-    <<button class="button">Confirm Payment</button>
-
     <script>
         function showActions(orderId) {
             var actionButtons = document.getElementsByClassName('order-actions-' + orderId);
